@@ -442,6 +442,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94bf3e2c0a082240847aa38c0930ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 0}
+  tourManager: {fileID: 0}
+  rotationSpeed: 2
+  zoomSpeed: 0.2
+  minZoom: 0.5
+  maxZoom: 2
 --- !u!4 &355018616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3903482226883268839, guid: 0a7d2469f24041c4284c66706f84c45e, type: 3}
@@ -499,7 +505,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 089c3daa46d2d78479348f484be5172f, type: 2}
+  - {fileID: 2100000, guid: 30631d390e9c6194ea38718b4e70e79b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
