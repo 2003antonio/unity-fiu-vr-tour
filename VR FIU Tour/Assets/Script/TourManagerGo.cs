@@ -24,14 +24,16 @@ public class TourManagerGo : MonoBehaviour
     {
         currentIndex++;
 
+        // Loop back to the first location when the end is reached
         if (currentIndex >= cameraLocations.Length)
         {
-            Debug.Log("Reached end of tour."); 
-            return;
+            currentIndex = 0;
+            Debug.Log("Looping back to the first location.");
         }
 
         MoveCameraToLocation(currentIndex);
     }
+
 
     private void MoveCameraToLocation(int index)
     {
