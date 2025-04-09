@@ -1,16 +1,20 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI; // For Toggle
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TourManagerGo : MonoBehaviour
 {
     [Header("Tour Configuration")]
-    public Transform[] cameraLocations;      // Set these in the Inspector
-    public GameObject OVRCameraRig;          // Drag your OVRCameraRig prefab here
+    public Transform[] cameraLocations;
+    public GameObject OVRCameraRig;
+
+    [Header("Scene Management")]
+    public string nextSceneName;
 
     private int currentIndex = 0;
 
-    // Called by the Toggle
+    // Move to the next location in the tour
     public void HandleToggle(bool isOn)
     {
         if (isOn)
@@ -24,16 +28,19 @@ public class TourManagerGo : MonoBehaviour
     {
         currentIndex++;
 
-        // Loop back to the first location when the end is reached
         if (currentIndex >= cameraLocations.Length)
         {
             currentIndex = 0;
-            Debug.Log("Looping back to the first location.");
         }
 
         MoveCameraToLocation(currentIndex);
     }
 
+    public void GoToFirstLocation()
+    {
+        currentIndex = 0;
+        MoveCameraToLocation(currentIndex);
+    }
 
     private void MoveCameraToLocation(int index)
     {
@@ -46,14 +53,20 @@ public class TourManagerGo : MonoBehaviour
 
     private IEnumerator ResetToggle()
     {
-        // Wait a frame so Unity finishes the Toggle event
         yield return new WaitForEndOfFrame();
-
-        // Reset the Toggle state so user can click it again
         Toggle toggle = GetComponent<Toggle>();
         if (toggle != null)
         {
             toggle.isOn = false;
+        }
+    }
+
+    // Load the next Unity scene
+    public void LoadNextSite()
+    {
+        if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            SceneManager.LoadScene(nextSceneName);
         }
     }
 }
