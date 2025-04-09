@@ -13359,7 +13359,7 @@ MonoBehaviour:
   - {fileID: 656267652}
   - {fileID: 987452429}
   OVRCameraRig: {fileID: 140095580}
-  nextSceneName: GC Tour
+  nextSceneName: CASE Tour
 --- !u!4 &1786328486
 Transform:
   m_ObjectHideFlags: 0
