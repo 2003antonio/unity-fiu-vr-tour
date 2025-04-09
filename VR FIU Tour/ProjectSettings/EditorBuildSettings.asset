@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/GC Tour.unity
     guid: bed095d95f6f4074db967a37c3789ed1
   - enabled: 1
+    path: Assets/Scenes/PC Tour.unity
+    guid: d44f716f0f369b549bca3f7f15c00012
+  - enabled: 1
+    path: Assets/Scenes/CASE Tour.unity
+    guid: 390c113a9f234ab4c8903d0aca85c646
+  - enabled: 1
+    path: Assets/Scenes/Owa Tour.unity
+    guid: 4a64a535fa868394697deabaac49f8eb
+  - enabled: 1
     path: Assets/Scenes/TOUR CANVAS.unity
     guid: e947fa25633121c419ee1ecc9638f125
   m_configObjects:
