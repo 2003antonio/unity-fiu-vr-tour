@@ -24,7 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/TOUR CANVAS.unity
     guid: e947fa25633121c419ee1ecc9638f125
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7a63a2cb2d7aa6d45b2364f5bfeb03d7, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 51991b266b4fc5c40a95af438f6bbb07, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e966e6a8d10b2084da345d200db53a13, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ec69181d2a7d72c40945dc2154c0c5b6, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4326a22ec0170484585c25a74e68ac27, type: 2}
   m_UseUCBPForAssetBundles: 0
