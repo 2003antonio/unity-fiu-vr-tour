@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 09481376f3bbb4e4c91855e279dc1a39, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5a01c556b6aa8fa40a0ee9e79ec4ef1f, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1577,11 +1577,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5617011675380867562, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: _size.x
-      value: 1255.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5617011675380867562, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: _size.y
-      value: 1556
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5619478106045529646, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2133,11 +2133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7740499666860002465, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: _size.x
-      value: 1255.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7740499666860002465, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: _size.y
-      value: 1556
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8038085060366247362, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3125,12 +3125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94bf3e2c0a082240847aa38c0930ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTransform: {fileID: 0}
-  tourManager: {fileID: 0}
-  rotationSpeed: 2
-  zoomSpeed: 0.2
-  minZoom: 0.5
-  maxZoom: 2
 --- !u!1 &340037924
 GameObject:
   m_ObjectHideFlags: 0
@@ -5586,12 +5580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94bf3e2c0a082240847aa38c0930ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraTransform: {fileID: 0}
-  tourManager: {fileID: 0}
-  rotationSpeed: 2
-  zoomSpeed: 0.2
-  minZoom: 0.5
-  maxZoom: 2
 --- !u!4 &960011118
 Transform:
   m_ObjectHideFlags: 0
@@ -5626,15 +5614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c07435c6b6a99748b3baea78967cbfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objSites:
-  - {fileID: 431840835}
-  - {fileID: 1493237222}
-  - {fileID: 1528888032}
-  - {fileID: 253543826}
-  - {fileID: 1295930084}
-  - {fileID: 509026850}
-  canvasMainMenu: {fileID: 0}
-  isCameraMove: 0
 --- !u!1 &965412538
 GameObject:
   m_ObjectHideFlags: 0
@@ -12537,7 +12516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!328 &2075353711
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -12732,10 +12711,10 @@ Rigidbody:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1691599605}
   - {fileID: 1691172962}
   - {fileID: 2024768885}
   - {fileID: 1012048647}
-  - {fileID: 1691599605}
   - {fileID: 960011118}
   - {fileID: 100456448}
   - {fileID: 16473039}
