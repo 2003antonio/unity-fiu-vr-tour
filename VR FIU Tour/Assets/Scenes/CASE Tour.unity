@@ -2189,7 +2189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3721003882881056858, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.218
+      value: 0.257
       objectReference: {fileID: 0}
     - target: {fileID: 3721003882881056858, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8681,7 +8681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8062842622248237664, guid: cf5e00f95bbc102419b456b1674f47f7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -14.64
+      value: -14.640015
       objectReference: {fileID: 0}
     - target: {fileID: 8094089040283849965, guid: cf5e00f95bbc102419b456b1674f47f7, type: 3}
       propertyPath: m_Sprite
@@ -14525,19 +14525,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1899838693119091177, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1899838693119091177, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1899838693119091177, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1899838693119091177, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 2027583526642193526, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
@@ -14815,6 +14815,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Use the button below to explore the developers favorite view of campus!
       objectReference: {fileID: 0}
+    - target: {fileID: 3112844525438788708, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
+      propertyPath: m_fontSize
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112844525438788708, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
+      propertyPath: m_margin.y
+      value: 6.0953865
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112844525438788708, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 3308242398829864491, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -14869,7 +14881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3721003882881056858, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2897
+      value: 0.273
       objectReference: {fileID: 0}
     - target: {fileID: 3721003882881056858, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14877,7 +14889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3721003882881056858, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.014
+      value: 0.011
       objectReference: {fileID: 0}
     - target: {fileID: 3721003882881056858, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15973,19 +15985,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8605440242450310096, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8605440242450310096, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8605440242450310096, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 154
       objectReference: {fileID: 0}
     - target: {fileID: 8605440242450310096, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 8695196931272473179, guid: 75dc5cbc531d2cf43bfa06ac8316dc62, type: 3}
       propertyPath: m_AnchorMax.y
@@ -20566,7 +20578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3125316046173583306, guid: d1fbb9de4e73aff46a9f589420c2ad34, type: 3}
       propertyPath: m_text
-      value: Case leads in groundbreaking and life-changing scientific research,
+      value: CASE leads in groundbreaking and life-changing scientific research,
         which have led to earning teacher of the year honors and the development
         of new products and medicines.
       objectReference: {fileID: 0}
@@ -22126,7 +22138,7 @@ Transform:
   m_GameObject: {fileID: 1493237222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 30, z: 5}
+  m_LocalPosition: {x: 0.75, y: 34.195, z: 5.13}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children:
