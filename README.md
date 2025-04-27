@@ -1,21 +1,50 @@
 # 🏫 VR Campus Tour – FIU MMC
 
-This Unity-based Virtual Reality experience allows new students and visitors to explore Florida International University’s MMC campus through an immersive guided tour. Built using the **Meta SDK**, this application provides a scalable and interactive solution that can be extended to other universities or businesses.
+This Unity-based Virtual Reality experience allows new students and visitors to explore Florida International University’s MMC campus through an immersive guided tour. Built using the **Meta XR SDK**, it’s designed as a scalable template that can be extended to other campuses, organizations, or businesses.
 
 ---
 
 ## 🎮 Project Overview
 
-- **Platform**: Unity (VR, built for Meta Quest)
-- **SDK**: Meta XR SDK (OVR Integration)
-- **Goal**: Improve campus orientation through immersive VR walkthroughs
-- **Key Features**:
-  - Teleport-based navigation between locations
-  - Info popups and 360° views
-  - Fade transition effects
-  - Modular scene structure for scalability
+- **Platform**: Unity (VR, Meta Quest)  
+- **SDK**: Meta XR SDK (OVR Integration)  
+- **Goal**: Improve campus orientation via an immersive VR walkthrough  
+- **Key Features**:  
+  - Teleport-based navigation  
+  - Info pop-ups with 360° panoramas  
+  - Smooth fade-in/fade-out transitions  
+  - Modular scene structure for easy expansion  
 
 ---
+
+## 📂 Directory Structure
+
+```text
+Assets/
+├── 2d photos/        # UI sprites & info-popup backplates
+├── 360 final/        # 360° environment panoramas
+├── Materials/        # Unity materials & texture assignments
+├── Models/           # 3D building & prop models
+├── Oculus/           # Oculus XR Plugin config & samples
+├── Plugins/          # Third-party Unity packages (Meta XR SDK, etc.)
+├── Prefabs/          # Reusable GameObject prefabs (teleport points, pop-ups)
+├── Resources/        # Runtime-loaded assets (fonts, audio, etc.)
+├── Samples/          # Example scenes & demos
+├── Scenes/           # .unity scene files (menu + all tour stops)
+├── Script/           # C# source (teleport logic, UI controllers, scene manager)
+├── Settings/         # ProjectSettings (input, graphics, player prefs)
+├── Shaders/          # Custom .shader files (fade effects, overlays)
+├── Sounds/           # Audio clips (ambient, narration, UI feedback)
+├── Builds/           # Build artifacts
+│   ├── Android/      # APK & OBB for Quest deployment
+│   └── PC/           # Standalone Windows builds for testing
+Docs/                 # User-facing documentation
+├── Installation_Guide.pdf   # Step-by-step setup with screenshots
+└── User_Manual.pdf          # End-user guide: controls, menus, troubleshooting
+
+README.md
+```
+
 
 ## 🛠️ Getting Started
 
@@ -58,7 +87,7 @@ This Unity-based Virtual Reality experience allows new students and visitors to 
 - Future-ready for:
   - Multi-user collaboration
   - AI tour guide integration
-  - AR overlays (for mobile campus apps)
+  - AR overlays for mobile campus apps
 
 ---
 
